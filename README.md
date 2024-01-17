@@ -105,7 +105,7 @@ Gallery - currently not implemented, but would be a logical fifth page, linked f
 ### Test Cases
 This section details testing runs that have been done on the project, including on different devices, browsers, against different user stories, and verifying that it meets the design criteria. Lighthouse in Chrome DevTools can be used to check usability and performance. Manual testing should include Expected outcome, Test performed, Result, and any Fixes.
 
-## Bugs discovered
+### Bugs discovered
 Any interesting or particularly difficult bugs can go in here, along with the steps taken to fix them.
 
 ## Code validation
