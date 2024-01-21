@@ -23,13 +23,14 @@
     line-height: normal;
 }
 
-.navbar-nav, .navbar-toggler {
+.navbar-nav,
+.navbar-toggler {
     margin-right: 30px;
 }
 
 .navbar-nav li {
-   margin-left: 15px; 
-   margin-right: 15px; 
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .nav-item {
@@ -42,7 +43,7 @@
 }
 
 .nav-item.active {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 /*------------------------------Hero*/
@@ -107,19 +108,20 @@ text-decoration: underline;
 
 @keyframes hero-zoom {
     from {
-      transform: scale(1);
+        transform: scale(1);
     }
-    to {
-      transform: scale(1.1);
-    }
-  }
 
-  #club-name h2{
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#club-name h2 {
     color: #ffffff;
     font-size: 29px;
-    }
-  
-  #club-name{
+}
+
+#club-name {
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
     width: 200px;
@@ -129,54 +131,55 @@ text-decoration: underline;
     bottom: 50px;
     left: 50px;
     position: absolute;
-  }
+}
 
 /*------------------------------About*/
 
 #about {
-    height: 600px;
-  }
-  
-  #left-about{
+    height: 500px;
+    padding-top: 50px;
+}
+
+#left-about {
     padding-top: 30px;
-  }
-  
-  #right-about{
+}
+
+#right-about {
     padding-top: 30px;
-  }
-  
-  #center-about{
+}
+
+#center-about {
     margin: 0 auto;
-  }
-  
-  hr{
+}
+
+hr {
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
-  }
-  
-  .left-about-heading{
+}
+
+.left-about-heading {
     width: 50%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     float: right;
-   }
-  
-  .right-about-heading{
+}
+
+.right-about-heading {
     width: 50%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     float: left;
     text-align: right;
-  }
-  
-  .right-about h2{
+}
+
+.right-about h2 {
     text-align: right;
-  }
-  
-  #call-to-action{
+}
+
+#call-to-action {
     text-align: center;
     margin: 20px 0;
     letter-spacing: 2px;
@@ -184,9 +187,9 @@ text-decoration: underline;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-weight: 700;
-  }
-  
-  #circle-container{
+}
+
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -195,17 +198,31 @@ text-decoration: underline;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-  }
-  
-  #circle-cover-bg{
+}
+
+#circle-cover-bg {
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") center center no-repeat;
     height: 100%;
     border-radius: 50%;
-  }
-  
+}
+
+/*------------------------------Club details*/
+
+.club-details {
+    font-family: Oswald, sans-serif;
+    background-color: rgba(36, 36, 36, 0.70);
+    padding: 74px;
+    text-align: center;
+}
+
+.col-lg-3 {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
 /*------------------------------Footer*/
 .mb-4 a {
-  color: #242424;
+    color: #242424;
 }
 
 .fab {
