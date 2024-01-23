@@ -122,4 +122,10 @@ Text is written in its entirety by Steve Cook, with some inspiration taken from 
 
 ### Media
 #### Images
-Images for this site have been sourced from Unsplash through Figma, and can be found at the following addresses:
+Images for the wireframes of this site have been sourced from Unsplash through Figma, and can be found at the following addresses:
+
+
+Images used in the site itself have been sourced through Pexels Stock Images and can be found at the following addresses:
+
+https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/
+
