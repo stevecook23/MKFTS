@@ -131,6 +131,7 @@
     bottom: 50px;
     left: 50px;
     position: absolute;
+    font-weight: 700;
 }
 
 /*------------------------------About*/
@@ -159,20 +160,22 @@ hr {
 }
 
 .left-about-heading {
-    width: 50%;
+    width: 80%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     float: right;
+    font-weight: 400;
 }
 
 .right-about-heading {
-    width: 50%;
+    width: 80%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
     float: left;
     text-align: right;
+    font-weight: 400;
 }
 
 .right-about h2 {
@@ -201,24 +204,42 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") center center no-repeat;
+    background: url("/assets/images/circle_index.jpg") center center no-repeat;
     height: 100%;
     border-radius: 50%;
+    aspect-ratio: 1:1;
 }
 
 /*------------------------------Club details*/
 
-.club-details {
+.club-index-info {
     font-family: Oswald, sans-serif;
     background-color: rgba(36, 36, 36, 0.70);
     padding: 74px;
     text-align: center;
+    vertical-align: center;
+}
+
+.club-index-info-text {
+    vertical-align: middle;
 }
 
 .col-lg-3 {
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
+
+.club-index-row {
+    background-image: url("/assets/images/clubs_info_index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    opacity: 80%;
+    color: white;
+}
+
 
 /*------------------------------Footer*/
 .mb-4 a {
