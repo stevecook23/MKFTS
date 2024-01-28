@@ -284,6 +284,27 @@ hr {
 }
 
 
+/*------------------------------About Page*/
+#about-image {
+    max-width: 350px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#clickthrough {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #104678;
+}
+
+/*------------------------------Contact Page*/
+
 .form-section {
     clear: left;
     background: url("/assets/images/hero.jpg");
@@ -302,12 +323,12 @@ hr {
     padding: 30px;
 }
 
-.enquiry-form h2{
+.enquiry-form h2 {
     color: #242424;
     margin-bottom: 20px;
 }
 
-.text-input{
+.text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -317,7 +338,7 @@ hr {
     border-radius: 2px;
 }
 
-.text-input-enquiry{
+.text-input-enquiry {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -327,15 +348,15 @@ hr {
     border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
     border-color: #104678;
 }
 
-.text-input-enquiry:hover{
+.text-input-enquiry:hover {
     border-color: #104678;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -346,7 +367,7 @@ hr {
     display: block;
 }
 
-.join-button:hover{
+.join-button:hover {
     background-color: #fafafa;
     color: #104678;
 }

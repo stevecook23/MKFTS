@@ -131,3 +131,4 @@ https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/
 https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/
 https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/
 https://www.pexels.com/photo/man-breaking-a-board-8041997/
+https://www.pexels.com/photo/man-people-woman-girl-7045607/  
