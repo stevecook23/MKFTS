@@ -232,20 +232,15 @@ hr {
 
 
 /*------------------------------Clubs Page*/
-#clubs .row {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+.card {
+    margin: 10px;
+    border: none;
 }
 
-.instructor-img {
-    height: 200px;
-
-    border-radius: 5%;
-}
-
-.club-card {
-    background-color: #104678;
+.align-vertically {
+    display: flex;
+    align-items: stretch;
 }
 
 /*------------------------------Google Map*/
@@ -262,11 +257,9 @@ hr {
     height: 100%;
     width: 100%;
     position: absolute;
+    overflow: hidden;
 }
 
-.map-container-google {
-    height: 300px;
-  }
 
 /*------------------------------About Page*/
 #about-image {
