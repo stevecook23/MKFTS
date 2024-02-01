@@ -95,11 +95,11 @@
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -124,7 +124,6 @@
 /*------------------------------Index Page About Section*/
 
 #about {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -164,14 +163,15 @@ hr {
     text-align: right;
 }
 
-#call-to-action {
+#page-title {
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
     letter-spacing: 2px;
     font-size: 35px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-weight: 700;
+    
 }
 
 #circle-container {
@@ -193,23 +193,6 @@ hr {
 
 /*------------------------------Index Page Club Details*/
 
-.club-index-info {
-    font-family: Oswald, sans-serif;
-    background-color: rgba(36, 36, 36, 0.70);
-    padding: 30px;
-    text-align: center;
-    vertical-align: center;
-}
-
-.club-index-info-text {
-    vertical-align: middle;
-}
-
-.col-lg-3 {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
 .club-index-row {
     background-image: url("/assets/images/clubs_info_index.jpg");
     background-repeat: no-repeat;
@@ -217,10 +200,25 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    display: flex;
     opacity: 80%;
     color: white;
+    justify-content: space-between;
+    margin: 0px;
 }
 
+.club-index-info {
+    font-family: Oswald, sans-serif;
+    background-color: rgba(36, 36, 36, 0.70);
+    padding: 30px;
+    text-align: center;
+    vertical-align: center;
+    width: 24.5%;
+}
+
+.club-index-info-text {
+    vertical-align: middle;
+}
 
 /*------------------------------Footer*/
 .mb-4 a {
@@ -235,12 +233,8 @@ hr {
 
 /*------------------------------Clubs Page*/
 
-#clubs-cards {
-    padding-top: 50px;
-}
 .card-group {
     padding: 10px 10px 10px 10px;
-    padding-top: 50px;
 }
 
 .card {
@@ -270,11 +264,6 @@ hr {
 #about-image {
     max-width: 350px;
     margin-right: 10px;
-}
-
-#about-text h2 {
-    padding-top: 20px;
-    text-align: center;
 }
 
 .clickthrough {
@@ -372,7 +361,7 @@ hr {
 
 /*------------------------------Adjustments for Smaller Screen Types*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 575px) {
     .enquiry-form {
         max-width: 100%; /* Set the maximum width to 100% for small screens */
         left: 0; /* Center the form on small screens */
@@ -380,6 +369,14 @@ hr {
 
     #about-text {
         padding: 40px;
+    }
+
+    #club-name {
+        left: 10px;
+    }
+
+    #about {
+        padding-left: 20px;
     }
 
 }
