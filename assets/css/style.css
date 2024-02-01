@@ -19,6 +19,8 @@
     line-height: normal;
 }
 
+
+
 .navbar-nav,
 .navbar-toggler {
     margin-right: 30px;
@@ -267,8 +269,12 @@ hr {
 /*------------------------------About Page*/
 #about-image {
     max-width: 350px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+#about-text h2 {
+    padding-top: 20px;
+    text-align: center;
 }
 
 .clickthrough {
@@ -308,7 +314,7 @@ hr {
 .enquiry-form {
     margin-top: 150px;
     color: #242424;
-    background-color: #10467860;
+    background-color: #10467840;
     max-width: 500px;
     position: absolute;
     left: 10%;
@@ -321,7 +327,7 @@ hr {
 }
 
 .text-input {
-    background: transparent;
+    background: #fafafa60;
     color: #242424;
     width: 100%;
     height: 25px;
@@ -331,7 +337,7 @@ hr {
 }
 
 .text-input-enquiry {
-    background: transparent;
+    background: #fafafa60;
     color: #242424;
     width: 100%;
     height: 100px;
