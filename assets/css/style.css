@@ -72,7 +72,7 @@
 }
 
 .hero-image-index {
-    background: url('./assets/images/hero.jpeg') center center no-repeat;
+    background: url('../assets/images/hero.jpeg') center center no-repeat;
 }
 
 .hero-image-clubs {
