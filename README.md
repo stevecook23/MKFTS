@@ -47,22 +47,22 @@ All four pages have the same social-media links in grey, in grey #7D7D7D.
 
 ![Footer](readme_docs/prototype/footer.png "Footer")
 
+## Wireframe
 ### Features Unique to the Home Page
-![Desktop Home Page](readme_docs/prototype/desktop_home_prototype.png "Desktop Home") 
-![Tablet Home Page](readme_docs/prototype/tablet_home_prototype.png "Tablet Home") 
-![Phone Home Page](readme_docs/prototype/phone_home_prototype.png "Phone Home")
+![Desktop Home Page](readme_docs/wireframes/desktop_home_wireframe.png "Desktop Home") 
+![Tablet Home Page](readme_docs/wireframes/tablet_home_wireframe.png "Tablet Home") 
+![Phone Home Page](readme_docs/wireframes/phone_home_wireframe.png "Phone Home")
 
 The Home page in all formats has, in addition to the common features, three or four 'why study karate' text areas. Tablet and Desktop have a central image; phone loses this image in favour of space-saving. Below this, four training sessions are called out - landscape on tablet and desktop, portrait on phone. These are click-through, taking the user to the Clubs page.
 
 ### Features Unique to the Clubs Page
-![Desktop Clubs Page](readme_docs/prototype/desktop_clubs_prototype.png "Desktop Clubs") 
-![Tablet Clubs Page](readme_docs/prototype/tablet_clubs_prototype.png "Tablet Clubs") 
-![Phone Clubs Page](readme_docs/prototype/phone_clubs_prototype.png "Phone Clubs")
+![Desktop About Page](readme_docs/wireframes/desktop_about_wireframe.png "Desktop About") 
+![Tablet About Page](readme_docs/wireframes/tablet_about_wireframe.png "Tablet About") 
+![Phone About Page](readme_docs/wireframes/phone_about_wireframe.png "Phone About")
 
 The Clubs page in all formats has, in addition to the common features, detail cards for three clubs. These cards include a portrait picture of the teacher for the club; text information detailing the time, location and cost of classes; and, taking up the same width as both the text and the picture, a Google Map embedded. On the Phone, these are displayed full-width in a vertical stack; on Tablet, there are two to a line, with the third centred; on Desktop, all three are displayed inline.
 
 ### Features Unique to the About Page
-
 ![Desktop About Page](readme_docs/prototype/desktop_about_prototype.png "Desktop About") 
 ![Tablet About Page](readme_docs/prototype/tablet_about_prototype.png "Tablet About") 
 ![Phone About Page](readme_docs/prototype/phone_about_prototype.png "Phone About")
@@ -70,36 +70,14 @@ The Clubs page in all formats has, in addition to the common features, detail ca
 The About page in all formats has, in addition to the common features, two text blocks that detail some interesting information for the user. Terms such as 'karate' and 'shotokan' may not be familiar to a newcomer; this page is primarily for these users. The second block of text also contains important information about DBS checks and first-aid certification. The first block is wrapped tightly around a square picture.
 
 ### Features Unique to the Contact Page
-
-![Desktop Contact Page](readme_docs/prototype/desktop_contact_prototype.png "Desktop Contact") 
-![Tablet Contact Page](readme_docs/prototype/tablet_contact_prototype.png "Tablet Contact") 
-![Phone Contact Page](readme_docs/prototype/phone_contact_prototype.png "Phone Contact")
+![Desktop Contact Page](readme_docs/wireframes/desktop_contact_wireframe.png "Desktop Contact") 
+![Tablet Contact Page](readme_docs/wireframes/tablet_contact_wireframe.png "Tablet Contact") 
+![Phone Contact Page](readme_docs/wireframes/phone_contact_wireframe.png "Phone Contact")
 
 The Contact page in all formats has, in addition to the common features, a contact form featuring text inputs for Name, Email and Enquiry, as well as a Submit button. On Desktop, the Hero image is unclipped with the 'Contact us' section overlapping it. On both Tablet and Phone, the regular layout is preserved. The button is in #104678 to match the boxouts over the Hero images.
 
 ## Upcoming features
 Gallery - currently not implemented, but would be a logical fifth page, linked from the Clubs page.
-
-## Wireframe
-### Home page
-![Desktop Home Page](readme_docs/wireframes/desktop_home_wireframe.png "Desktop Home") 
-![Tablet Home Page](readme_docs/wireframes/tablet_home_wireframe.png "Tablet Home") 
-![Phone Home Page](readme_docs/wireframes/phone_home_wireframe.png "Phone Home")
-
-### Clubs page
-![Desktop Clubs Page](readme_docs/wireframes/desktop_clubs_wireframe.png "Desktop Clubs") 
-![Tablet Clubs Page](readme_docs/wireframes/tablet_clubs_wireframe.png "Tablet Clubs") 
-![Phone Clubs Page](readme_docs/wireframes/phone_clubs_wireframe.png "Phone Clubs")
-
-### About page
-![Desktop About Page](readme_docs/wireframes/desktop_about_wireframe.png "Desktop About") 
-![Tablet About Page](readme_docs/wireframes/tablet_about_wireframe.png "Tablet About") 
-![Phone About Page](readme_docs/wireframes/phone_about_wireframe.png "Phone About")
-
-### Contact page
-![Desktop Contact Page](readme_docs/wireframes/desktop_contact_wireframe.png "Desktop Contact") 
-![Tablet Contact Page](readme_docs/wireframes/tablet_contact_wireframe.png "Tablet Contact") 
-![Phone Contact Page](readme_docs/wireframes/phone_contact_wireframe.png "Phone Contact")
 
 ## Testing
 ### Test Cases

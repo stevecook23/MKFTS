@@ -5,9 +5,6 @@
     color: #777777
 }
 
-
-
-
 /*------------------------------Navbar*/
 .navbar-brand {
     background-color: white;
@@ -18,8 +15,6 @@
     font-weight: 700;
     line-height: normal;
 }
-
-
 
 .navbar-nav,
 .navbar-toggler {
