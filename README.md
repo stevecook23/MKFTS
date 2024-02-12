@@ -91,10 +91,15 @@ Main test case: Contact form
 + Input in just the Enquiry field returns a popup error 'Please fill in this field' in the topmost empty field.
 + Inputs in any combination that don't include a full set of inputs return the popup error 'Please fill in this field' in the topmost empty field.
 + Inputs into the Email Address field that do not use proper email address format return the error 'Please include an @ in the email address.'
+
 ![Test Case One](readme_docs/testcases/Testcase-one.png "Test Case One") 
+
 ![Test Case Two](readme_docs/testcases/Testcase-two.png "Test Case Two") 
+
 + Inputs present in all four input fields, with correct email format used, returns the following success screen (currently directing to the Code Institute form submission)
+
 ![Test Case Three](readme_docs/testcases/Testcase-three.png "Test Case Three") 
+
 Result: Works as expected
 
 Secondary test case: Newcomer user journey
