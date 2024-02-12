@@ -84,7 +84,9 @@ Gallery - currently not implemented, but would be a logical fifth page, linked f
 This section details testing runs that have been done on the project, including on different devices, browsers, against different user stories, and verifying that it meets the design criteria. Lighthouse in Chrome DevTools can be used to check usability and performance. Manual testing should include Expected outcome, Test performed, Result, and any Fixes.
 
 ### Bugs discovered
-Any interesting or particularly difficult bugs can go in here, along with the steps taken to fix them.
+I had a lot of trouble with the circular image on the index.html page. It pushed much of the content around on smaller screen sizes, and iPad Pro in particular was slightly larger than the 'medium' screen size for Bootstrap, meaning that it needed some specific code to ensure the image and text were aligned properly. Ultimately, adding in a column in the centre to properly align the text at lower screen resolutions solved the problem.
+
+I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. 
 
 ## Code validation
 W3C - https://validator.w3.org/

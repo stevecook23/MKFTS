@@ -16,7 +16,6 @@
     line-height: normal;
 }
 
-.navbar-nav,
 .navbar-toggler {
     margin-right: 30px;
 }
@@ -40,12 +39,24 @@
     color: #777777;
 }
 
+#navbar-padding {
+    padding: 0px;
+}
+
+#navigation-bar {
+    width: 100%;
+}
+
 /*------------------------------Hero*/
 .hero {
     width: 100%;
     height: 400px;
     overflow: hidden;
     position: relative;
+}
+
+#hero-padding {
+    padding: 0px;
 }
 
 .hero-contact {
@@ -71,11 +82,13 @@
 }
 
 .hero-image-clubs {
-    background: url('../../assets/images/hero2.jpeg') center center no-repeat;;
+    background: url('../../assets/images/hero-two.jpeg') center center no-repeat;
+    ;
 }
 
 .hero-image-about {
-    background: url('../../assets/images/hero3.jpeg') center center no-repeat;;
+    background: url('../../assets/images/hero-three.jpeg') center center no-repeat;
+    ;
 }
 
 .hero-image-contact {
@@ -166,7 +179,7 @@ hr {
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-weight: 700;
-    
+
 }
 
 #circle-container {
@@ -204,7 +217,7 @@ hr {
 
 .club-index-info {
     font-family: Oswald, sans-serif;
-    background-color: rgba(36, 36, 36, 0.70);
+    background-color: #242424b3;
     padding: 30px;
     text-align: center;
     vertical-align: center;
@@ -356,10 +369,27 @@ hr {
 
 /*------------------------------Adjustments for Smaller Screen Types*/
 
+@media only screen and (max-width: 991px) {
+    .right-about-heading {
+        padding-right: 10px;
+    }
+
+    .left-about-heading {
+        padding-left: 10px;
+    }
+
+    #circle-container {
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width: 575px) {
     .enquiry-form {
-        max-width: 100%; /* Set the maximum width to 100% for small screens */
-        left: 0; /* Center the form on small screens */
+        max-width: 100%;
+        /* Set the maximum width to 100% for small screens */
+        left: 0;
+        /* Center the form on small screens */
     }
 
     #about-text {
@@ -377,6 +407,14 @@ hr {
 
     .club-index-info {
         width: 100%;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    button.navbar.toggler {
+        margin-right: 10px;
     }
 
 }
