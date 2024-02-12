@@ -153,6 +153,11 @@ hr {
     margin: 5px 0;
 }
 
+.row {
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+
 .left-about-heading .right-about-heading {
     width: 80%;
     line-height: 20px;
@@ -415,6 +420,11 @@ hr {
 
     button.navbar.toggler {
         margin-right: 10px;
+    }
+
+    #about-image {
+        max-width: 100%;
+        padding-bottom: 20px;
     }
 
 }

@@ -63,9 +63,9 @@ The Home page in all formats has, in addition to the common features, three or f
 The Clubs page in all formats has, in addition to the common features, detail cards for three clubs. These cards include a portrait picture of the teacher for the club; text information detailing the time, location and cost of classes; and, taking up the same width as both the text and the picture, a Google Map embedded. On the Phone, these are displayed full-width in a vertical stack; on Tablet, there are two to a line, with the third centred; on Desktop, all three are displayed inline.
 
 ### Features Unique to the About Page
-![Desktop About Page](readme_docs/prototype/desktop_about_prototype.png "Desktop About") 
-![Tablet About Page](readme_docs/prototype/tablet_about_prototype.png "Tablet About") 
-![Phone About Page](readme_docs/prototype/phone_about_prototype.png "Phone About")
+![Desktop About Page](readme_docs/wireframes/desktop_about_wireframe.png "Desktop About") 
+![Tablet About Page](readme_docs/wireframes/tablet_about_wireframe.png "Tablet About") 
+![Phone About Page](readme_docs/wireframes/phone_about_wireframe.png "Phone About")
 
 The About page in all formats has, in addition to the common features, two text blocks that detail some interesting information for the user. Terms such as 'karate' and 'shotokan' may not be familiar to a newcomer; this page is primarily for these users. The second block of text also contains important information about DBS checks and first-aid certification. The first block is wrapped tightly around a square picture.
 
@@ -91,10 +91,10 @@ Main test case: Contact form
 + Input in just the Enquiry field returns a popup error 'Please fill in this field' in the topmost empty field.
 + Inputs in any combination that don't include a full set of inputs return the popup error 'Please fill in this field' in the topmost empty field.
 + Inputs into the Email Address field that do not use proper email address format return the error 'Please include an @ in the email address.'
-![Test Case One](readme_docs/testcases/testcase-one.png "Test Case One") 
-![Test Case Two](readme_docs/testcases/testcase-two.png "Test Case Two") 
+![Test Case One](readme_docs/testcases/Testcase-one.png "Test Case One") 
+![Test Case Two](readme_docs/testcases/Testcase-two.png "Test Case Two") 
 + Inputs present in all four input fields, with correct email format used, returns the following success screen (currently directing to the Code Institute form submission)
-![Test Case Three](readme_docs/testcases/testcase-three.png "Test Case Three") 
+![Test Case Three](readme_docs/testcases/Testcase-three.png "Test Case Three") 
 Result: Works as expected
 
 Secondary test case: Newcomer user journey
@@ -138,9 +138,15 @@ Text is written in its entirety by Steve Cook, with some inspiration taken from 
 Images used in the site have been sourced through Pexels Stock Images  and are used by permission. They can be found at the following addresses:
 
 <a href="https://www.pexels.com/photo/close-up-shot-of-two-people-wearing-karategi-and-black-belt-6253307/" target="_blank">Index and Contact page Hero image</a>
+
 <a href="https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/" target="_blank">Circle image on Index page</a>
+
 <a href="https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/" target="_blank">First instructor image on Clubs page</a>
+
 <a href="https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/" target="_blank">Second instructor image on Clubs page</a>
+
 <a href="https://www.pexels.com/photo/a-man-in-white-gi-teaching-karate-9651864/" target="_blank">Third instructor image on Clubs page</a>
+
 <a href="https://www.pexels.com/photo/mt-fuji-japan-1108701/" target="_blank">Hero image on About page</a>
+
 <a href="https://www.pexels.com/photo/man-people-woman-girl-7045605/" target="_blank">Clubs Page Hero image</a>
