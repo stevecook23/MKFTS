@@ -77,41 +77,70 @@ The About page in all formats has, in addition to the common features, two text 
 The Contact page in all formats has, in addition to the common features, a contact form featuring text inputs for Name, Email and Enquiry, as well as a Submit button. On Desktop, the Hero image is unclipped with the 'Contact us' section overlapping it. On both Tablet and Phone, the regular layout is preserved. The button is in #104678 to match the boxouts over the Hero images.
 
 ## Upcoming features
-Gallery - currently not implemented, but would be a logical fifth page, linked from the Clubs page.
+Gallery - currently not implemented, but would be a logical fifth page, linked from the Clubs page, possibly with each club having their own gallery.
+
+## Technology
+This website was made in its entirety using Visual Code Studio. Initially having been introduced to CodeAnywhere through the Code Institute, I made the decision very early on to use VSC exclusively as a way of combating the long load times and instability of CodeAnywhere. Additional software used to create this website include Photoshop for image editing and Chrome for previewing, inspecting and bug testing.
 
 ## Testing
 ### Test Cases
-This section details testing runs that have been done on the project, including on different devices, browsers, against different user stories, and verifying that it meets the design criteria. Lighthouse in Chrome DevTools can be used to check usability and performance. Manual testing should include Expected outcome, Test performed, Result, and any Fixes.
+Main test case: Contact form
++ Input in just the First Name field returns a popup error 'Please fill in this field' in the next topmost empty field.
++ Input in just the Last Name field returns a popup error 'Please fill in this field' in the topmost empty field.
++ Input in just the Email Address field returns a popup error 'Please fill in this field' in the topmost empty field.
++ Input in just the Enquiry field returns a popup error 'Please fill in this field' in the topmost empty field.
++ Inputs in any combination that don't include a full set of inputs return the popup error 'Please fill in this field' in the topmost empty field.
++ Inputs into the Email Address field that do not use proper email address format return the error 'Please include an @ in the email address.'
+![Test Case One](readme_docs/testcases/testcase-one.png "Test Case One") 
+![Test Case Two](readme_docs/testcases/testcase-two.png "Test Case Two") 
++ Inputs present in all four input fields, with correct email format used, returns the following success screen (currently directing to the Code Institute form submission)
+![Test Case Three](readme_docs/testcases/testcase-three.png "Test Case Three") 
+Result: Works as expected
+
+Secondary test case: Newcomer user journey
++ As a newcomer to the site, the desired information is on the front page - places, dates, times. 
++ Additional information is included - safety, reasons to want to train
++ Thought is given to the visuals - a range of people are visible across the pages, and they are good-quality and eye-catching
+Result: Works as expected
+
+Secondary test case: Experienced user journey
++ As someone who knows what information they are looking for, the desired information is on the front page - places, dates, times. 
++ Contact information hidden to prevent spam - all contact is through the Contact page
++ Thought is given to the visuals - a range of people are visible across the pages, and they are good-quality and eye-catching
+Result: Works as expected
 
 ### Bugs discovered
 I had a lot of trouble with the circular image on the index.html page. It pushed much of the content around on smaller screen sizes, and iPad Pro in particular was slightly larger than the 'medium' screen size for Bootstrap, meaning that it needed some specific code to ensure the image and text were aligned properly. Ultimately, adding in a column in the centre to properly align the text at lower screen resolutions solved the problem.
 
-I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. 
+I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. This caused horizontal scrolls in screen sizes that weren't huge. In the end, after a lot of work with the Inspect tool, I traced the problem to rows in Bootstrap seemingly having -12px margins. Removing the margins removed the problem.
 
 ## Code validation
-W3C - https://validator.w3.org/
+<a href="https://validator.w3.org/" target="_blank">W3C</a>
 
-Jigsaw - https://jigsaw.w3.org/css-validator/
+![W3C Validation](readme_docs/testcases/validator-one.png "W3c Validation") 
+
+<a href="https://jigsaw.w3.org/" target="_blank">Jigsaw</a>
+
+![Jigsaw Validation](readme_docs/testcases/validator-two.png "Jigsaw Validation") 
+
+## Supported Screens and Browsers
+This website works in any browser and at any screen size, from desktop down to smart phones. It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested.
 
 ## Deployment
-This section is for detailing the deployment of the site. For this project, this will be GitHub Pages. It should include all steps needed to run the content. It should also include steps needed to clone, install and run my code so that a future developer can contribute to my project. - also links to Github
+This website has been deployed on Github Pages. It was developed locally, using a clone of the repository on Github, available at <a href="https://github.com/stevecook23/MKFTS" target="_blank">Github</a>. The Visual Studio Code preview extension was used to preview the website. The deployment list is available <a href="https://github.com/stevecook23/MKFTS/actions" target="_blank">here</a>.
 
 ## Credits
 ### Content
-Text is written in its entirety by Steve Cook, with some inspiration taken from www.cfts-karate.co.uk
+Text is written in its entirety by Steve Cook, with some inspiration taken from www.cfts-karate.co.uk, also by Steve Cook.
 
 ### Media
 #### Images
-Images for the wireframes of this site have been sourced from Unsplash through Figma, and can be found at the following addresses:
+Images used in the site have been sourced through Pexels Stock Images  and are used by permission. They can be found at the following addresses:
 
-
-Images used in the site itself have been sourced through Pexels Stock Images and can be found at the following addresses:
-
-https://www.pexels.com/photo/close-up-shot-of-two-people-wearing-karategi-and-black-belt-6253307/ - Index and Contact page Hero image
-https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/
-https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/
-https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/
-https://www.pexels.com/photo/a-man-in-white-gi-teaching-karate-9651864/ - Instructor 2 image
-https://www.pexels.com/photo/man-people-woman-girl-7045607/ 
-https://www.pexels.com/photo/mt-fuji-japan-1108701/ - About hero image
-https://www.pexels.com/photo/man-people-woman-girl-7045605/ - Clubs hero image
+<a href="https://www.pexels.com/photo/close-up-shot-of-two-people-wearing-karategi-and-black-belt-6253307/" target="_blank">Index and Contact page Hero image</a>
+<a href="https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/" target="_blank">Circle image on Index page</a>
+<a href="https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/" target="_blank">First instructor image on Clubs page</a>
+<a href="https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/" target="_blank">Second instructor image on Clubs page</a>
+<a href="https://www.pexels.com/photo/a-man-in-white-gi-teaching-karate-9651864/" target="_blank">Third instructor image on Clubs page</a>
+<a href="https://www.pexels.com/photo/mt-fuji-japan-1108701/" target="_blank">Hero image on About page</a>
+<a href="https://www.pexels.com/photo/man-people-woman-girl-7045605/" target="_blank">Clubs Page Hero image</a>
