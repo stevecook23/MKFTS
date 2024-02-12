@@ -35,15 +35,15 @@ All four pages have the following features in common:
 ![Header with Nav Bar](readme_docs/prototype/header.png "Desktop Home")
 ![Phone Header with Nav Bar](readme_docs/prototype/phone_header.png "Phone Home")
 
-The header includes a text logo that is clickable, taking the user to the home page; and a menu with clickable links to all four pages. The curently-selected page is underlined, clearly indicating to the user where they are. This is identical across all four pages, and easily allows the user to navigate the website without becoming lost or using the 'back' button. For the phone, this will aim to include a hamburger-style menu which opens in a menu with the same four options and styling.
+The header includes a text logo that is clickable, taking the user to the home page; and a menu with clickable links to all four pages. The curently-selected page is underlined, clearly indicating to the user where they are. This is identical across all four pages, and easily allows the user to navigate the website without becoming lost or using the 'back' button. For the phone, this will aim to include a hamburger-style menu which opens in a menu with the same four options and styling. Example generated in Figma.
 
 #### Hero Image
-All four pages have a Hero image of identical size (with one small exception - see Contact for Desktop page). This image is consistent across three different screen sizes, although cropping may differ. This image also contains a box-out in blue that contains text in white, giving the full name of the site and also tying in to the key colour palette used throughout, in #104678 with 60% opacity. These hero images have a gentle animation, easing in, to catch the eye and assure the user that the website is functioning.
+All four pages have a Hero image of identical size (with one small exception - see Contact for Desktop page). This image is consistent across three different screen sizes, although cropping may differ. This image also contains a box-out in blue that contains text in white, giving the full name of the site and also tying in to the key colour palette used throughout, in #104678 with 60% opacity. These hero images have a gentle animation, easing in, to catch the eye and assure the user that the website is functioning.  Example generated in Figma.
 
 ![Home page hero image](readme_docs/prototype/hero.png "Hero Image")
 
 #### Footer
-All four pages have the same social-media links in grey, in grey #7D7D7D.
+All four pages have the same social-media links in grey, in grey #7D7D7D. Example generated in Figma.
 
 ![Footer](readme_docs/prototype/footer.png "Footer")
 
