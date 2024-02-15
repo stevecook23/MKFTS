@@ -85,11 +85,11 @@ The Contact page in all formats has, in addition to the common features, a conta
 + Members - currently not implemented, but having registered users that can access other information from the site would be a good extension of this idea.
 
 ## Technology
-+ This website was made in its entirety using Visual Code Studio. Initially having been introduced to CodeAnywhere through the Code Institute, I made the decision very early on to use VSC exclusively as a way of combating the long load times and instability of CodeAnywhere. + Additional software used to create this website include Photoshop for image editing and Chrome for previewing, inspecting and bug testing.
++ This website was made in its entirety using Visual Code Studio. Initially having been introduced to CodeAnywhere through the Code Institute, I made the decision very early on to use VSC exclusively as a way of combating the long load times and instability of CodeAnywhere. 
++ Additional software used to create this website include Photoshop for image editing and Chrome for previewing, inspecting and bug testing.
 
 ## Testing
-### Test Cases
-Test case: Home page
+### Test case: Home page
 + Click Home; page should not change
 + Click Clubs; page should change to Clubs page
 + Click About; page should change to About page
@@ -102,7 +102,7 @@ Test case: Home page
 + On smaller screen sizes, these stretch the width of the page
 + At the bottom of the page should be a footer with three social media links
 
-Test case: Clubs page
+### Test case: Clubs page
 + Click Home; page should change to the Home page
 + Click Clubs; page should not change
 + Click About; page should change to About page
@@ -117,7 +117,7 @@ Test case: Clubs page
 + On smaller screen sizes, these stretch the width of the page
 + At the bottom of the page should be a footer with three social media links
 
-Test case: About page
+### Test case: About page
 + Click Home; page should change to the Home page
 + Click Clubs; page should change to the Clubs page
 + Click About; page should not change
@@ -132,7 +132,7 @@ Test case: About page
 + Clicking the button should change the page to the Contact page
 + At the bottom of the page should be a footer with three social media links
 
-Test case: Contact form
+### Test case: Contact form
 + Click Home; page should change to the Home page
 + Click Clubs; page should change to the Clubs page
 + Click About; page should change to the About page
@@ -158,13 +158,13 @@ Test case: Contact form
 ![Test Case Three](readme_docs/testcases/Testcase-three.png "Test Case Three") 
 + At the bottom of the page should be a footer with three social media links
 
-Secondary test case: Newcomer user journey
+### Secondary test case: Newcomer user journey
 + As a newcomer to the site, the desired information is on the front page - places, dates, times. 
 + Additional information is included - safety, reasons to want to train
 + Thought is given to the visuals - a range of people are visible across the pages, and they are good-quality and eye-catching
 Result: Works as expected
 
-Secondary test case: Experienced user journey
+### Secondary test case: Experienced user journey
 + As someone who knows what information they are looking for, the desired information is on the front page - places, dates, times. 
 + Contact information hidden to prevent spam - all contact is through the Contact page
 + Thought is given to the visuals - a range of people are visible across the pages, and they are good-quality and eye-catching
@@ -176,25 +176,32 @@ Result: Works as expected
 + I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. This caused horizontal scrolls in screen sizes that weren't huge. In the end, after a lot of work with the Inspect tool, I traced the problem to rows in Bootstrap seemingly having -12px margins. Removing the margins removed the problem.
 
 ## Code validation
-<a href="https://validator.w3.org/" target="_blank">W3C</a>
+### <a href="https://validator.w3.org/" target="_blank">W3C</a>
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html" target="_blank">Home page validation</a>
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html" target="_blank">Clubs page validation</a>
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html" target="_blank">About page validation</a>
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html" target="_blank">Contact page validation</a>
++ <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html" target="_blank">Home page validation</a>
+
++ <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html" target="_blank">Clubs page validation</a>
+
++ <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html" target="_blank">About page validation</a>
+
++ <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html" target="_blank">Contact page validation</a>
 
 ![W3C Validation](readme_docs/testcases/validator-one-one.png "W3c Validation") 
 
-<a href="https://jigsaw.w3.org/" target="_blank">Jigsaw</a>
+### <a href="https://jigsaw.w3.org/" target="_blank">Jigsaw</a>
 
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Home page validation</a>
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Clubs page validation</a>
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">About page validation</a>
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Contact page validation</a>
++ <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Home page validation</a>
+
++ <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Clubs page validation</a>
+
++ <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">About page validation</a>
+
++ <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Contact page validation</a>
 
 ![Jigsaw Validation](readme_docs/testcases/validator-two-two.png "Jigsaw Validation") 
 
-Lighthouse Report:
+### Lighthouse Report:
+
 ![Lighthouse Report](readme_docs/testcases/lighthouse_report.png "Lighthouse Report")
 
 ## Supported Screens and Browsers
