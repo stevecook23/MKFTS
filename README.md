@@ -7,6 +7,8 @@ This is a website designed for MKFTS, a fictional karate club. It is a site with
 The site is designed to work on three different screen sizes, including Desktop, Tablet and Phone sizes.
 
 ## User Stories
+As a visiting, or anonymous user, I would like to contact the owners of the site for queries about classes, or to find out more information. I have split this into three example personae:
+
 As a newcomer to the hobby, I want (in order):
 + Visuals that give me a general idea of the club, and are eye-catching
 + Some questions/answers about why I would want to do this as a hobby
@@ -24,6 +26,8 @@ As a caregiver for a member of the club, I want:
 + Information that might help get my dependent to their club - where and when
 + Information about the adults I am trusting my dependent to
 + Knowledge that those adults are safe, insured, etc
+
+This website does not have the functionality currently for members, or for registered users. This has been added to the list of upcoming features.
 
 ## Features
 This site comprises four pages: a home page, an 'about' page, a 'clubs' page and a 'contact' page.
@@ -77,14 +81,67 @@ The About page in all formats has, in addition to the common features, two text 
 The Contact page in all formats has, in addition to the common features, a contact form featuring text inputs for Name, Email and Enquiry, as well as a Submit button. On Desktop, the Hero image is unclipped with the 'Contact us' section overlapping it. On both Tablet and Phone, the regular layout is preserved. The button is in #104678 to match the boxouts over the Hero images.
 
 ## Upcoming features
-Gallery - currently not implemented, but would be a logical fifth page, linked from the Clubs page, possibly with each club having their own gallery.
++ Gallery - currently not implemented, but would be a logical fifth page, linked from the Clubs page, possibly with each club having their own gallery.
++ Members - currently not implemented, but having registered users that can access other information from the site would be a good extension of this idea.
 
 ## Technology
-This website was made in its entirety using Visual Code Studio. Initially having been introduced to CodeAnywhere through the Code Institute, I made the decision very early on to use VSC exclusively as a way of combating the long load times and instability of CodeAnywhere. Additional software used to create this website include Photoshop for image editing and Chrome for previewing, inspecting and bug testing.
++ This website was made in its entirety using Visual Code Studio. Initially having been introduced to CodeAnywhere through the Code Institute, I made the decision very early on to use VSC exclusively as a way of combating the long load times and instability of CodeAnywhere. + Additional software used to create this website include Photoshop for image editing and Chrome for previewing, inspecting and bug testing.
 
 ## Testing
 ### Test Cases
-Main test case: Contact form
+Test case: Home page
++ Click Home; page should not change
++ Click Clubs; page should change to Clubs page
++ Click About; page should change to About page
++ Click Contact; page should change to Contact page
++ On Home Page, MKFTS text logo should be visible horizontally aligned with menu
++ On smaller screen sizes, Menu should be replaced with dropdown
++ Hero image should be visible, with boxout detailing club name
++ The next section should have a title, four pieces of text, each with a heading, and, on larger screen sizes, a circular image in the centre
++ Beneath should be four cards detailing club locations and times, equally spaced
++ On smaller screen sizes, these stretch the width of the page
++ At the bottom of the page should be a footer with three social media links
+
+Test case: Clubs page
++ Click Home; page should change to the Home page
++ Click Clubs; page should not change
++ Click About; page should change to About page
++ Click Contact; page should change to Contact page
++ On Home Page, MKFTS text logo should be visible horizontally aligned with menu
++ On smaller screen sizes, Menu should be replaced with dropdown
++ Hero image should be visible, with boxout detailing club name
++ The next section should have a title and three cards, each detailing a different club
++ Each club card should have a picture at its top
++ Each club card should have text in the middle detailing the location, time and contact details for the club
++ Each club card should end with a Google Map that is interactable
++ On smaller screen sizes, these stretch the width of the page
++ At the bottom of the page should be a footer with three social media links
+
+Test case: About page
++ Click Home; page should change to the Home page
++ Click Clubs; page should change to the Clubs page
++ Click About; page should not change
++ Click Contact; page should change to Contact page
++ On Home Page, MKFTS text logo should be visible horizontally aligned with menu
++ On smaller screen sizes, Menu should be replaced with dropdown
++ Hero image should be visible, with boxout detailing club name
++ The next section should have a title, an image and text
++ On larger screens, the image should be aligned left and have the text wrapping around it
++ On smaller screens, the image is aligned centre and text is below it
++ At the bottom of the text section should be a button inviting the user to click it to get in contact
++ Clicking the button should change the page to the Contact page
++ At the bottom of the page should be a footer with three social media links
+
+Test case: Contact form
++ Click Home; page should change to the Home page
++ Click Clubs; page should change to the Clubs page
++ Click About; page should change to the About page
++ Click Contact; page should not change
++ On Home Page, MKFTS text logo should be visible horizontally aligned with menu
++ On smaller screen sizes, Menu should be replaced with dropdown
++ The Hero image should extend to the bottom of the page
++ The boxout on other pages should be replaced by a contact form
++ On smaller screens, the contact form fills the width of the screen
 + Input in just the First Name field returns a popup error 'Please fill in this field' in the next topmost empty field.
 + Input in just the Last Name field returns a popup error 'Please fill in this field' in the topmost empty field.
 + Input in just the Email Address field returns a popup error 'Please fill in this field' in the topmost empty field.
@@ -99,8 +156,7 @@ Main test case: Contact form
 + Inputs present in all four input fields, with correct email format used, returns the following success screen (currently directing to the Code Institute form submission)
 
 ![Test Case Three](readme_docs/testcases/Testcase-three.png "Test Case Three") 
-
-Result: Works as expected
++ At the bottom of the page should be a footer with three social media links
 
 Secondary test case: Newcomer user journey
 + As a newcomer to the site, the desired information is on the front page - places, dates, times. 
@@ -115,24 +171,61 @@ Secondary test case: Experienced user journey
 Result: Works as expected
 
 ### Bugs discovered
-I had a lot of trouble with the circular image on the index.html page. It pushed much of the content around on smaller screen sizes, and iPad Pro in particular was slightly larger than the 'medium' screen size for Bootstrap, meaning that it needed some specific code to ensure the image and text were aligned properly. Ultimately, adding in a column in the centre to properly align the text at lower screen resolutions solved the problem.
++ I had a lot of trouble with the circular image on the index.html page. It pushed much of the content around on smaller screen sizes, and iPad Pro in particular was slightly larger than the 'medium' screen size for Bootstrap, meaning that it needed some specific code to ensure the image and text were aligned properly. Ultimately, adding in a column in the centre to properly align the text at lower screen resolutions solved the problem.
 
-I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. This caused horizontal scrolls in screen sizes that weren't huge. In the end, after a lot of work with the Inspect tool, I traced the problem to rows in Bootstrap seemingly having -12px margins. Removing the margins removed the problem.
++ I had a great deal of problem making the hero and navbar not overflow at the lowest screen sizes. This caused horizontal scrolls in screen sizes that weren't huge. In the end, after a lot of work with the Inspect tool, I traced the problem to rows in Bootstrap seemingly having -12px margins. Removing the margins removed the problem.
 
 ## Code validation
 <a href="https://validator.w3.org/" target="_blank">W3C</a>
 
-![W3C Validation](readme_docs/testcases/validator-one.png "W3c Validation") 
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html" target="_blank">Home page validation</a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html" target="_blank">Clubs page validation</a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html" target="_blank">About page validation</a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html" target="_blank">Contact page validation</a>
+
+![W3C Validation](readme_docs/testcases/validator-one-one.png "W3c Validation") 
 
 <a href="https://jigsaw.w3.org/" target="_blank">Jigsaw</a>
 
-![Jigsaw Validation](readme_docs/testcases/validator-two.png "Jigsaw Validation") 
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Home page validation</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fclubs.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Clubs page validation</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">About page validation</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevecook23.github.io%2FMKFTS%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Contact page validation</a>
+
+![Jigsaw Validation](readme_docs/testcases/validator-two-two.png "Jigsaw Validation") 
+
+Lighthouse Report:
+![Lighthouse Report](readme_docs/testcases/lighthouse_report.png "Lighthouse Report")
 
 ## Supported Screens and Browsers
-This website works in any browser and at any screen size, from desktop down to smart phones. It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested.
++ This website works in any browser and at any screen size, from desktop down to smart phones. 
++ It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested.
 
 ## Deployment
-This website has been deployed on Github Pages. It was developed locally, using a clone of the repository on Github, available at <a href="https://github.com/stevecook23/MKFTS" target="_blank">Github</a>. The Visual Studio Code preview extension was used to preview the website. The deployment list is available <a href="https://github.com/stevecook23/MKFTS/actions" target="_blank">here</a>.
+This website has been deployed on Github Pages. It was developed locally, using a clone of the repository on Github, available at <a href="https://github.com/stevecook23/MKFTS" target="_blank">Github</a>. 
+
+To view the deployment on Github Pages:
+1. Navigate to https://stevecook23.github.io/MKFTS/
+2. Alternatively, navigate to https://github.com/stevecook23/MKFTS 
+3. Click 'Actions'
+4. Click on the most recent workflow run
+5. Click the link under 'Deploy'
+
+To clone the repository from Github in your editor of choice:
+1. First, open your terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Input: ```bash
+4. Input: cd path/to/your/directory (ensure you change the directory to whatever you want to clone the repository)
+5. Clone the repository by running: git clone https://github.com/stevecook23/MKFTS.git
+6. Change directories into the cloned repository: cd MKFTS
+7. Now you have a copy of the source code and can start to work on it.
+
+The Visual Studio Code preview extension was used to preview the website. The deployment list is available <a href="https://github.com/stevecook23/MKFTS/actions" target="_blank">here</a>.
+To open this repository on Visual Studio Code:
+1. Open an integrated terminal from the menu Terminal -> New Terminal
+2. Clone the repo with the following command: git clone https://github.com/stevecook23/MKFTS
+3. Change your terminal into that new subdirectory: cd MKFTS
+4. Open in Visual Studio Code: code .
 
 ## Credits
 ### Content
@@ -142,16 +235,16 @@ Text is written in its entirety by Steve Cook, with some inspiration taken from 
 #### Images
 Images used in the site have been sourced through Pexels Stock Images  and are used by permission. They can be found at the following addresses:
 
-<a href="https://www.pexels.com/photo/close-up-shot-of-two-people-wearing-karategi-and-black-belt-6253307/" target="_blank">Index and Contact page Hero image</a>
++ <a href="https://www.pexels.com/photo/close-up-shot-of-two-people-wearing-karategi-and-black-belt-6253307/" target="_blank">Index and Contact page Hero image</a>
 
-<a href="https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/" target="_blank">Circle image on Index page</a>
++ <a href="https://www.pexels.com/photo/woman-doing-a-karate-pose-6005472/" target="_blank">Circle image on Index page</a>
 
-<a href="https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/" target="_blank">First instructor image on Clubs page</a>
++ <a href="https://www.pexels.com/photo/a-man-doing-a-karate-punch-7045749/" target="_blank">First instructor image on Clubs page</a>
 
-<a href="https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/" target="_blank">Second instructor image on Clubs page</a>
++ <a href="https://www.pexels.com/photo/woman-in-white-judo-uniform-7045407/" target="_blank">Second instructor image on Clubs page</a>
 
-<a href="https://www.pexels.com/photo/a-man-in-white-gi-teaching-karate-9651864/" target="_blank">Third instructor image on Clubs page</a>
++ <a href="https://www.pexels.com/photo/a-man-in-white-gi-teaching-karate-9651864/" target="_blank">Third instructor image on Clubs page</a>
 
-<a href="https://www.pexels.com/photo/mt-fuji-japan-1108701/" target="_blank">Hero image on About page</a>
++ <a href="https://www.pexels.com/photo/mt-fuji-japan-1108701/" target="_blank">Hero image on About page</a>
 
-<a href="https://www.pexels.com/photo/man-people-woman-girl-7045605/" target="_blank">Clubs Page Hero image</a>
++ <a href="https://www.pexels.com/photo/man-people-woman-girl-7045605/" target="_blank">Clubs Page Hero image</a>

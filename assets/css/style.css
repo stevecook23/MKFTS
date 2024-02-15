@@ -1,5 +1,3 @@
-/*------------------------------Colors*/
-
 /*-----------------------Navbar*/
 .navbar-light .navbar-nav .nav-link .navbar-light .navbar-brand {
     color: #777777
@@ -246,7 +244,20 @@ hr {
     font-size: 29px;
 }
 
+/*------------------------------CSS to make the Footer 'sticky'*/
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 
+.form-section {
+    min-height: 100%;
+    }
+
+.footer,
+.push {
+  height: 50px;
+}
 
 /*------------------------------Clubs Page*/
 
@@ -390,7 +401,6 @@ hr {
     #circle-container {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 575px) {
@@ -430,5 +440,18 @@ hr {
         max-width: 100%;
         padding-bottom: 20px;
     }
+}
+@media only screen and (max-width: 768px) {
 
+    .left-about-heading {
+        padding-left: 0px;
+    }
+
+    #about-right-text {
+        padding-top: 30px;
+    }
+
+    .right-about-heading {
+        text-align: left;
+    }
 }
